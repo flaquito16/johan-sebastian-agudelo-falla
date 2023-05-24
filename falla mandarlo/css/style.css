@@ -1,0 +1,90 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-align: center;
+color: white;
+}
+body{
+    background-image: url(../imagenes/HD-wallpaper-blood-splat-illustration.jpg) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background:black;
+    border: 2px solid white;
+    width: 1000px;
+    margin: 20px auto;
+    box-shadow: 20px 20px 20px  red;
+    padding: 40px;
+}
+
+header{
+    margin: 20px 0;
+
+    text-align: center;
+    border-bottom: 4px inset rgba(41, 41, 41, .5);
+     padding: 20px 0;
+}
+
+header img{
+    float: left;
+    margin-left: 20px ;
+
+}
+.sp{
+
+    float: none;
+    margin: 5%;
+    margin-right: 80%;
+    width: 50%;
+
+}
+.sl{
+    float: none;
+    
+    text-decoration: none;
+}
+p{
+    margin: 2%;
+    
+    text-decoration: none;
+}
+h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-right: 30%;
+     margin-top: 0 auto;
+}
+nav{
+    margin: 20px 0;
+    padding: 0 20px 20px;
+    border-bottom: 4px inset rgba(41, 41, 41, .5);
+
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    background-color:red;
+    color: black;
+    padding: 7px 10px;
+    border-radius: 10px;
+}
+footer{
+    color: white;
+    border: 2px solid ;
+    box-shadow: 10px 10px 10px red;
+    width: auto;
+    padding: 20px;
+    margin: 250px;
+    margin-top: 5%;
+    text-decoration: none;
+    text-align: center;
+}
+.clear{
+    clear: both;
+}
